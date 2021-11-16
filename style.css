@@ -1,0 +1,130 @@
+.body
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: cornflowerblue;
+    text-align: justify;
+}
+.x,.y
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    margin: 20px;
+    padding-left: 25px;
+    padding-right: 10px;
+    background-color: white ;
+    border: 2px solid black;
+    font-style: italic;
+}
+.testbox_x, .testbox_y
+{
+    width: 75%;
+}
+.text
+{
+    margin-left: 20px;
+    font-size: 14px;
+}
+.text_2
+{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.main
+{
+    display: flex;
+    width: 100%;
+}
+
+.left
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 68%;
+}
+.right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 400px;
+    width: 32%;
+    background-color: lightsalmon;
+}
+.top
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.bottom
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    width: 100%;
+    height: 100%;
+    background-color: darkseagreen;
+
+}
+.top_left
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    width: 44%;
+    height: 100%;
+    background-color: lightsalmon;
+}
+.top_right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 56%;
+}
+.top_right_3
+{
+    display: flex;
+    width: 100%;
+    background-color: darkseagreen;
+}
+.top_right_5
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.footer
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction:row;
+   width: 100% ;
+   background-color: cornflowerblue;
+   text-align: justify;
+}
